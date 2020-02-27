@@ -1,0 +1,40 @@
+/* Stile wannabe */
+
+*{
+  margin: 0:
+  padding: 0;
+  box-sizing: border-box;
+}
+/* regole common */
+
+.row{
+  width: 992px;
+  margin: 0 auto;
+}
+
+.grey{
+  background-color: #f9f9f9;
+  padding: 10px 0;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blue{
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+h1, h3, p{
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
