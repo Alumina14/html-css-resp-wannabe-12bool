@@ -1,14 +1,14 @@
-/* Stile wannabe */
+/* Inizio regole generali */
 
 *{
   margin: 0:
   padding: 0;
   box-sizing: border-box;
 }
-/* regole common */
+
 
 .row{
-  width: 992px;
+  max-width: 992px;
   margin: 0 auto;
 }
 
@@ -38,3 +38,4 @@ img {
   margin: 0 auto;
   display: block;
 }
+/* Fine regole generali */
